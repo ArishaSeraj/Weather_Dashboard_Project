@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title> Weather Dashboard </title>
+    <link rel ="stylesheet" href = "style.css"> 
+  </head>
+  <body>
+    <div class= "Weather-Container">
+        <div class="search-box">
+            <input type= "text" placeholder="Enter Your location">
+            <button type="button">
+                <img src="images/Search icon.png" alt="Search" width="20" height="20">
+            </button>
+        </div>
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="images/cloudy weather.png" alt="Weather Icon">
+                        <p class="temperature">0<span>°C</span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                    <p id="time"></p>
+                </div>
+            </div>
+        </div>
+        <div class="not-found">
+            <div class="box">
+                <img src="images/Not-found.png" alt="Not Found Image">
+                <p>Oops! Location not found!</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
